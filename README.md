@@ -73,5 +73,17 @@ Gew = S1 S0’ <br>
 <h3>7-seg Display</h3>
 <img width="442" alt="image" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/12dc708e-05b2-4fcb-a493-b79ff697a78e">
 <h3>LOGISIM</h3>
-
+<img width="513" alt="Screenshot 2023-10-25 170032" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/0f7186de-04e7-4bbf-b344-cec38386db60">
+<h4>32-bit counter : </h4>
+<img width="553" alt="Screenshot 2023-10-25 170047" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/221870d8-d6b4-4fe8-9e60-9a18e3c4eae9">
+<h4>Main component : </h4>
+<img width="579" alt="Screenshot 2023-10-25 170054" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/fab920ac-b4b1-4f0f-a82e-358380e716ea">
+<h4>2bit number on 7-segment display</h4>
+<img width="479" alt="Screenshot 2023-10-25 170104" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/d1eb205d-f064-4f7a-beff-727b50b45774">
+<h3>References : </h3>
+<ol>
+ <li><a href="https://electronics.stackexchange.com/questions/50890/how-do-i-implement-a-simple-finite-state-machine-with-2-t-flip-flops">Implementing Finite State Machines - Electronics. stack exchange</li>
+ <li><a href="https://www.electronics-tutorial.net/finite-state-machines/FSM-Applications/Traffic-Light-Controller/">FSMs - electroics-tutorial </li>
+ <li><a href="https://ocw.mit.edu/courses/6-111-introductory-digital-systems-laboratory-fall-2002/09bd41368db0c3f65396b13cee7cf8fb_lab2.pdf">PDF on digital systems </li>
+</ol>
 
