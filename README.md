@@ -71,4 +71,7 @@ Gew = S1 S0’ <br>
  We used a timing sequence of (if a vehicle present on the street road) the red signal in east-west road or green in the north-south road remains for 16 seconds in the Hardware part (as per convinience of usage of gates) where as 32 seconds in the verilog code. Yellow remains for 4 seconds and Green light on the  street road remains for 8 seconds (in   hardware part (logisim)) and 16 seconds in the verilog code. In the hardware part , we implement showing the timers using 7 segment displays using counters.
 </p>
 <h3>7-seg Display</h3>
+<img width="442" alt="image" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/12dc708e-05b2-4fcb-a493-b79ff697a78e">
+<h3>LOGISIM</h3>
+
 
