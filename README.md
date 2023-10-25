@@ -1,4 +1,4 @@
- # It's a traffic light controller used at an intersection of a busy road and village road
+ # It's a Traffic Light Controller used at an intersection of a busy road and village road
 <h1>Mini Project Design</h1>
 <h2>Traffic Light Controller(  intersection of a busy road and a street road).</h2>
 <h4><b>Team Members :</b> </h4>
