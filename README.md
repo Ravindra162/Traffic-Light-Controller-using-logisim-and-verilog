@@ -46,8 +46,8 @@
 <img width="513" alt="Screenshot 2023-10-25 164448" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/3f2b1c55-ba85-4628-bd3b-ef844d7e8bae">
 <p>
  Using K-map we can get the expression for A and B. Our expression’s are :
-A = S1’ S0 T + S1 S0’ + S1 T’                   B = S0’ T + S0 T’ = S0 ^  T
-Each state implies to 6 outputs such as Red light in North-south road (Busy road) as Rns
+A = S1’ S0 T + S1 S0’ + S1 T’      <br>             B = S0’ T + S0 T’ = S0 ^  T<br>
+Each state implies to 6 outputs such as Red light in North-south road (Busy road) as Rns<br>
                                                                        Yellow light in North-South road as Yns
                                                                         Green light in North-South road as Gns
                                                                         Red light in East-West road (street road) as Rew
@@ -55,3 +55,14 @@ Each state implies to 6 outputs such as Red light in North-south road (Busy road
                                                                         Green light in East-West road as Gns
 
 </p>
+<img width="529" alt="Screenshot 2023-10-25 164500" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/7d42ef2f-b3e1-45ab-96a6-58684886c3a9">
+<p>
+ Using K-map we can get the expression for Rns, Yns, Gns, Rew, Yew and Gew. Our expression’s are :<br>
+Rns = S1<br>
+Yns = S1’  S0 <br>
+Gns = S1’  S0’ <br>
+Rew = S1’ <br>
+Yew = S0 S1 <br>
+Gew = S1 S0’ <br>
+</p>
+
