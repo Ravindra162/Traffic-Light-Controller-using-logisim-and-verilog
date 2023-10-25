@@ -43,3 +43,15 @@
  Let us say S1 and S0 represents bits of my present state and A and B represents bits of my Future state, and T be the timer for each of the states. Consider the following truth table. 
 </p>
 <h4>Functional Tables</h4>
+<img width="513" alt="Screenshot 2023-10-25 164448" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/3f2b1c55-ba85-4628-bd3b-ef844d7e8bae">
+<p>
+ Using K-map we can get the expression for A and B. Our expression’s are :
+A = S1’ S0 T + S1 S0’ + S1 T’                   B = S0’ T + S0 T’ = S0 ^  T
+Each state implies to 6 outputs such as Red light in North-south road (Busy road) as Rns
+                                                                       Yellow light in North-South road as Yns
+                                                                        Green light in North-South road as Gns
+                                                                        Red light in East-West road (street road) as Rew
+                                                                       Yellow light in East-West road as Yns
+                                                                        Green light in East-West road as Gns
+
+</p>
