@@ -31,7 +31,7 @@ Team Members :
 <img width="428" alt="image" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/ad6b1e87-56c2-4750-878d-f4b00c96349c">
 </details>
 <!-- Third Section -->
-<h2>Abstract  : </h2>
+<h2>Working  : </h2>
 <details>
   <summary>Detail</summary>
 <h3>Description : </h3>
