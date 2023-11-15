@@ -14,9 +14,9 @@
   > Section: S1
 
 Team Members :
-1.221CS110 - A. Yoga Anil Kumar - Anumola Yoga AnilKumar.221cs110@nitk.edu.in - 7013014805 
-2.221CS161 - Umang Agarwal      - umangagarwal.221cs161@nitk.edu.in           -9958794560 
-3.221CS162 - V.Taraka Ravindra  - tarakaravindra.221cs162@nitk.edu.in        - 7569248124 
+<h5>1.221CS110 - A. Yoga Anil Kumar - Anumola Yoga AnilKumar.221cs110@nitk.edu.in - 7013014805 </h5>
+<h5>2.221CS161 - Umang Agarwal      - umangagarwal.221cs161@nitk.edu.in           -9958794560 </h5>
+<h5>3.221CS162 - V.Taraka Ravindra  - tarakaravindra.221cs162@nitk.edu.in        - 7569248124  </h5>
 </details>
 
 <!-- Second Section -->
