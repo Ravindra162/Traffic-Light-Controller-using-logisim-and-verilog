@@ -1,7 +1,7 @@
- # Traffic Light Controller used at intersection of a busy road and street road
+
 <h1>Mini Project Design</h1>
 
- # Write your mini-project title
+# Traffic Light Controller used at intersection of a busy road and street road
 
 <!-- First Section -->
 ## Team Details
@@ -111,8 +111,7 @@ Gew = S1 S0’ <br>
 ## Verilog Code
 <details>
   <summary>Detail</summary>
-   
- <p>
+ 
 `timescale 1ns / 1ps
 
 module Traffic
@@ -376,9 +375,10 @@ module Traffic_Test_2;
   always begin
     #1 clk = ~clk;
   end
-endmodule</p>
+endmodule
+
 </details>
-<h2>References</h2>
+<h1>References  : </h1>
 <details>
 <summary>Detail</summary>
  <h3>
