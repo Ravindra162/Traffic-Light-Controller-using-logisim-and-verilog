@@ -173,8 +173,7 @@ module Traffic
        EW_YELLOW <= 0;
        EW_GREEN <= 1;
     end
-
-    // Sets the start state at: 100001
+ // Sets the start state at: 100001
     if (yellowCounter == 3 & EW_YELLOW) begin
        NS_RED <= 0;
        NS_YELLOW <= 0;
