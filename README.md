@@ -1,6 +1,4 @@
 
-<h1>Mini Project Design</h1>
-
 # Traffic Light Controller used at intersection of a busy road and street road
 
 <!-- First Section -->
