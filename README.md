@@ -109,6 +109,7 @@ Gew = S1 S0’ <br>
 <details>
   <summary>Detail</summary>
   
+![image](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/7e79801d-6b67-46b2-8ec7-b01fa7cbd6cd)
 
  
 
@@ -116,6 +117,7 @@ Gew = S1 S0’ <br>
 `timescale 1ns / 1ps
 
 module Traffic
+
 (
   input [4:0] nsCounter,
   input [3:0] ewCounter,
@@ -130,8 +132,8 @@ module Traffic
   output reg EW_GREEN
 );
 
-  // Sets the start state at: 001100
   initial begin
+  
     NS_RED <= 0;
     NS_YELLOW <= 0;
     NS_GREEN <= 1;
@@ -141,7 +143,7 @@ module Traffic
   end
 
   always @ (nsCounter) begin
-  	// Sets the start state at: 010100
+  
     if (nsCounter == 31 & EW_VEHICLE_DETECT & NS_GREEN) begin
        NS_RED <= 0;
        NS_YELLOW <= 1;
@@ -151,9 +153,8 @@ module Traffic
        EW_GREEN <= 0;
     end
   end
-
-  // Sets the start state at: 100010
   always @ (ewCounter) begin
+  
     if (ewCounter == 15 & EW_GREEN) begin
        NS_RED <= 1;
        NS_YELLOW <= 0;
@@ -163,9 +164,8 @@ module Traffic
        EW_GREEN <= 0;
     end
   end
-
-  // Sets the start state at: 001100
   always @ (yellowCounter) begin
+  
     if (yellowCounter == 3 & NS_YELLOW) begin
        NS_RED <= 1;
        NS_YELLOW <= 0;
@@ -174,7 +174,7 @@ module Traffic
        EW_YELLOW <= 0;
        EW_GREEN <= 1;
     end
- // Sets the start state at: 100001
+    
     if (yellowCounter == 3 & EW_YELLOW) begin
        NS_RED <= 0;
        NS_YELLOW <= 0;
@@ -220,11 +220,6 @@ module nsCounter
 
 endmodule
 
-
-/*
-    A Counter for the East-West Traffic Light
-    Counts from 0-15
-*/
 module ewCounter
 (
     input clk,
@@ -252,10 +247,7 @@ module ewCounter
 endmodule
 
 
-/*
-    A Counter for the common yellow Traffic Light
-    Counts from 0-3
-*/
+
 module yellowCounter
 (
   input clk,
@@ -282,7 +274,7 @@ module Traffic_Test_1;
   reg NS_VEHICLE_DETECT;
   reg EW_VEHICLE_DETECT;
 
-  // Outputs
+
   wire NS_RED;
   wire NS_YELLOW;
   wire NS_GREEN;
@@ -290,7 +282,6 @@ module Traffic_Test_1;
   wire EW_YELLOW;
   wire EW_GREEN;
 
-  // Clock
   reg clk;
 
   // Counters
@@ -298,12 +289,10 @@ module Traffic_Test_1;
   wire[3:0] count2;
   wire[1:0] count3;
 
-  // Counter Modules
   nsCounter clock1(clk, count1); 	 // Count a total of 32 seconds
   ewCounter clock2(clk, count2); 	 // Counts a total of 16 seconds
   yellowCounter clock3(clk, count3); // Counts a total of 4 seconds
 
-  // Main Traffic Module
   Traffic CORE (count1, count2, count3, NS_VEHICLE_DETECT, EW_VEHICLE_DETECT, NS_RED, NS_YELLOW, NS_GREEN, EW_RED, EW_YELLOW, EW_GREEN);
 
   initial begin
@@ -330,12 +319,9 @@ module Traffic_Test_1;
   end
 endmodule
 module Traffic_Test_2;
-
-  // Inputs
   reg NS_VEHICLE_DETECT;
   reg EW_VEHICLE_DETECT;
 
-  // Outputs
   wire NS_RED;
   wire NS_YELLOW;
   wire NS_GREEN;
@@ -343,20 +329,16 @@ module Traffic_Test_2;
   wire EW_YELLOW;
   wire EW_GREEN;
 
-  // Clock
   reg clk;
 
-  // Counters
   wire[4:0] count1;
   wire[3:0] count2;
   wire[1:0] count3;
 
-  // Counter Modules
   nsCounter clock1(clk, count1); 	 // Count a total of 32 seconds
   ewCounter clock2(clk, count2); 	 // Counts a total of 16 seconds
   yellowCounter clock3(clk, count3); // Counts a total of 4 seconds
 
-  // Main Traffic Module
   Traffic CORE (count1, count2, count3, NS_VEHICLE_DETECT, EW_VEHICLE_DETECT, NS_RED, NS_YELLOW, NS_GREEN, EW_RED, EW_YELLOW, EW_GREEN);
 
   initial begin
