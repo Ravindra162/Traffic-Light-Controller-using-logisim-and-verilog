@@ -108,29 +108,25 @@ Gew = S1 S0’ <br>
 ## Verilog Code
 <details>
   <summary>Detail</summary>
-  
-![image](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/7e79801d-6b67-46b2-8ec7-b01fa7cbd6cd)
 
  
 
 
 `timescale 1ns / 1ps
 
-module Traffic
+module Traffic(nsCounter,ewCounter,yellowCounter,NS_VEHICLE_DETECT,EW_VEHICLE_DETECT,NS_RED,NS_GREEN,EW_RED,EW_YELLOW,EW_GREEN);
 
-(
-  input [4:0] nsCounter,
-  input [3:0] ewCounter,
-  input [1:0] yellowCounter,
-  input NS_VEHICLE_DETECT,
-  input EW_VEHICLE_DETECT,
-  output reg NS_RED,
-  output reg NS_YELLOW,
-  output reg NS_GREEN,
-  output reg EW_RED,
-  output reg EW_YELLOW,
-  output reg EW_GREEN
-);
+  input [4:0] nsCounter;
+  input [3:0] ewCounter;
+  input [1:0] yellowCounter;
+  input NS_VEHICLE_DETECT;
+  input EW_VEHICLE_DETECT;
+  output reg NS_RED;
+  output reg NS_YELLOW;
+  output reg NS_GREEN;
+  output reg EW_RED;
+  output reg EW_YELLOW;
+  output reg EW_GREEN;
 
   initial begin
   
