@@ -60,7 +60,8 @@ Team Members :
  Let us say S1 and S0 represents bits of my present state and A and B represents bits of my Future state, and T be the timer for each of the states. Consider the following truth table. 
 </p>
 <h4>Functional Tables</h4>
-<img width="513" alt="Screenshot 2023-10-25 164448" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/3f2b1c55-ba85-4628-bd3b-ef844d7e8bae">
+![image](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/5f22a191-931f-465d-8229-c47102b58f9b)
+
 <p>
  Using K-map we can get the expression for A and B. Our expression’s are :
 A = S1’ S0 T + S1 S0’ + S1 T’      <br>             B = S0’ T + S0 T’ = S0 ^  T<br>
