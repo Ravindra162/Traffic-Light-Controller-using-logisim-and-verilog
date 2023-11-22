@@ -26,7 +26,6 @@ Team Members :
   The simple traffic light controller design project was introduced to alleviate this shortcoming and gain experience in solving implementation and interfacing problems of a modern digital system. we implement a fully functional traffic signal controller for a four-way intersection between a busy road and village road, where less traffic is present. Intersection is complete with sensors to detect the presence of vehicles waiting at or approaching the inter-section .</p>
   <p>These include HDL for modeling and finite state machines, and serial communication. Traffic lights, also known as traffic lamps, traffic signals, stoplight, stop-and-go lights semaphore or robots, are signaling devices positioned at pedestrian crossings, road intersections, and other locations to control competing flows of traffic. Traffic lights have installed in most cities around the world to control the flow of traffic.It assign the right of way to road users by the use of lights in standard colors (Red - Yellow - Green), using a universal color code (and a precise sequence, for color blind). It requires us to develop a state machine based controller for traffic signals at a four-way 
 </p>
-<img width="428" alt="image" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/ad6b1e87-56c2-4750-878d-f4b00c96349c">
 </details>
 <!-- Third Section -->
 <h2>Working  : </h2>
@@ -89,8 +88,6 @@ Gew = S1 S0’ <br>
 <p>
  We used a timing sequence of (if a vehicle present on the street road) the red signal in east-west road or green in the north-south road remains for 16 seconds in the Hardware part (as per convinience of usage of gates) where as 32 seconds in the verilog code. Yellow remains for 4 seconds and Green light on the  street road remains for 8 seconds (in   hardware part (logisim)) and 16 seconds in the verilog code. In the hardware part , we implement showing the timers using 7 segment displays using counters.
 </p>
-<h3>7-seg Display</h3>
-<img width="442" alt="image" src="[https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/12dc708e-05b2-4fcb-a493-b79ff697a78e](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20165823.png?raw=true)">
 
 </details>
 
