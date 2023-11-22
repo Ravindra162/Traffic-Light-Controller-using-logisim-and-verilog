@@ -60,7 +60,7 @@ Team Members :
  Let us say S1 and S0 represents bits of my present state and A and B represents bits of my Future state, and T be the timer for each of the states. Consider the following truth table. 
 </p>
 <h4>Functional Tables</h4>
-<img src="[https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164500.png?raw=true](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164448.png?raw=true)" alt="Something"/>
+<img src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164448.png?raw=true" alt="Something"/>
 
 <p>
  Using K-map we can get the expression for A and B. Our expression’s are :
@@ -104,7 +104,7 @@ Gew = S1 S0’ <br>
 <h4>Main component : </h4>
 <img width="579" src = "https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170054.png?raw=true" alt="Screenshot 2023-10-25 170054" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/fab920ac-b4b1-4f0f-a82e-358380e716ea">
 <h4>2bit number on 7-segment display</h4>
-<img width="479" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170104.png?raw=true" alt="Screenshot 2023-10-25 170104" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/d1eb205d-f064-4f7a-beff-727b50b45774">
+<img width="479" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170104.png?raw=true" alt="Screenshot 2023-10-25 170104">
 </details>
 
 <!-- Fifth Section -->
