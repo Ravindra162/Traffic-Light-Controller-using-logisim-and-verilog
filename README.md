@@ -108,7 +108,14 @@ Gew = S1 S0’ <br>
 ## Verilog Code
 <details>
   <summary>Detail</summary>
+  
+ ![image](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/0073eae4-1660-49b1-ba80-950a70d9b35e)
+
+ ![image](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/67621721-db66-4fd2-8805-1692646a074c)
+
  
+
+
 `timescale 1ns / 1ps
 
 module Traffic
