@@ -73,7 +73,7 @@ Each state implies to 6 outputs such as Red light in North-south road (Busy road
                                                                         Green light in East-West road as Gns
 
 </p>
-<img width="529" alt="Screenshot 2023-10-25 164500" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/7d42ef2f-b3e1-45ab-96a6-58684886c3a9">
+<img width="529" src= 'https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/6df13848-a3d6-4fe9-8142-ee598cf12c9e'alt="Screenshot 2023-10-25 164500" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/7d42ef2f-b3e1-45ab-96a6-58684886c3a9">
 <p>
  Using K-map we can get the expression for Rns, Yns, Gns, Rew, Yew and Gew. Our expression’s are :<br>
 Rns = S1<br>
