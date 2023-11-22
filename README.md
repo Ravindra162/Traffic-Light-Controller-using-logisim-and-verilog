@@ -60,7 +60,7 @@ Team Members :
  Let us say S1 and S0 represents bits of my present state and A and B represents bits of my Future state, and T be the timer for each of the states. Consider the following truth table. 
 </p>
 <h4>Functional Tables</h4>
-<img src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164500.png?raw=true" alt="Something"/>
+<img src="[https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164500.png?raw=true](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164448.png?raw=true)" alt="Something"/>
 
 <p>
  Using K-map we can get the expression for A and B. Our expression’s are :
@@ -83,14 +83,14 @@ Rew = S1’ <br>
 Yew = S0 S1 <br>
 Gew = S1 S0’ <br>
 </p>
-![image](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/6df13848-a3d6-4fe9-8142-ee598cf12c9e)
+<img src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20164537.png?raw=true" alt = "Func table"/>
 
 <h3>Timers Used : </h3>
 <p>
  We used a timing sequence of (if a vehicle present on the street road) the red signal in east-west road or green in the north-south road remains for 16 seconds in the Hardware part (as per convinience of usage of gates) where as 32 seconds in the verilog code. Yellow remains for 4 seconds and Green light on the  street road remains for 8 seconds (in   hardware part (logisim)) and 16 seconds in the verilog code. In the hardware part , we implement showing the timers using 7 segment displays using counters.
 </p>
 <h3>7-seg Display</h3>
-<img width="442" alt="image" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/12dc708e-05b2-4fcb-a493-b79ff697a78e">
+<img width="442" alt="image" src="[https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/12dc708e-05b2-4fcb-a493-b79ff697a78e](https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20165823.png?raw=true)">
 
 </details>
 
@@ -98,13 +98,13 @@ Gew = S1 S0’ <br>
 ## Logisim Circuit Diagram
 <details>
   <summary>Detail</summary>
-<img width="513" alt="Screenshot 2023-10-25 170032" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/0f7186de-04e7-4bbf-b344-cec38386db60">
+<img width="513" src = 'https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170032.png?raw=true' alt="Screenshot 2023-10-25 170032" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/0f7186de-04e7-4bbf-b344-cec38386db60">
 <h4>32-bit counter : </h4>
-<img width="553" alt="Screenshot 2023-10-25 170047" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/221870d8-d6b4-4fe8-9e60-9a18e3c4eae9">
+<img width="553" src = 'https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170047.png?raw=true' alt="Screenshot 2023-10-25 170047" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/221870d8-d6b4-4fe8-9e60-9a18e3c4eae9">
 <h4>Main component : </h4>
-<img width="579" alt="Screenshot 2023-10-25 170054" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/fab920ac-b4b1-4f0f-a82e-358380e716ea">
+<img width="579" src = "https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170054.png?raw=true" alt="Screenshot 2023-10-25 170054" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/fab920ac-b4b1-4f0f-a82e-358380e716ea">
 <h4>2bit number on 7-segment display</h4>
-<img width="479" alt="Screenshot 2023-10-25 170104" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/d1eb205d-f064-4f7a-beff-727b50b45774">
+<img width="479" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/blob/main/Snapshots/Screenshot%202023-10-25%20170104.png?raw=true" alt="Screenshot 2023-10-25 170104" src="https://github.com/Ravindra162/Traffic-Light-Controller-using-logisim-and-verilog/assets/121024571/d1eb205d-f064-4f7a-beff-727b50b45774">
 </details>
 
 <!-- Fifth Section -->
